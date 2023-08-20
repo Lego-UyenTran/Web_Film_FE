@@ -1,0 +1,61 @@
+.wrapper {
+    margin-top: 38px;
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.list {
+    .first-child {
+        display: flex;
+    }
+
+    .item,
+    .first-child {
+        display: flex;
+        .left {
+            .image {
+                width: 130px;
+                height: 195px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+.first-child,
+.item {
+    .right {
+        font-size: 1.6rem;
+        .season {
+            margin-bottom: 12px;
+            font-weight: 400;
+            font-family: Merriweather, serif;
+            color: #428bca;
+            &:hover {
+                color: #dcf836;
+            }
+        }
+        span {
+            display: flex;
+            color: #b5b5b5;
+            .year {
+                margin-right: 3px;
+            }
+            .episode {
+            }
+        }
+        .desc {
+            color: #b5b5b5;
+        }
+    }
+}
+
+.list .item {
+    padding-top: 16px;
+    margin-top: 16px;
+    border-top: 1px solid #7a7a7a;
+}

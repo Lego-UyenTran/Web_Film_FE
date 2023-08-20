@@ -1,0 +1,88 @@
+.wrapper {
+    max-width: 1334px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 48px;
+    .username {
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}
+
+.content .info {
+    font-size: 1.6rem;
+
+    .date-joined {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 6px;
+        .date {
+            margin-left: 8px;
+            font-weight: 600;
+        }
+    }
+
+    .field-email {
+        .email {
+            display: flex;
+            justify-content: center;
+
+            p {
+                margin-left: 8px;
+                font-weight: 600;
+            }
+        }
+        .settings-email {
+            display: flex;
+            justify-content: center;
+
+            .change-email {
+                margin-right: 14px;
+                color: #428bca;
+                &:hover {
+                    color: #dcf836;
+                }
+            }
+            .change-password {
+                color: #428bca;
+                &:hover {
+                    color: #dcf836;
+                }
+            }
+        }
+    }
+}
+
+.content .field {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    text-align: center;
+    .checkbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+        a {
+            &:hover {
+                color: #ffe08a;
+            }
+        }
+    }
+
+    .help {
+        font-size: 1.3rem;
+        margin-top: 6px;
+        color: #7a7a7a;
+    }
+}

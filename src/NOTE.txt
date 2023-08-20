@@ -1,0 +1,20 @@
+Phân tích:
+
+1. Header: có Navbar
++ Logo: nav-brand;
++ menu: nav__type và nav__use
+
+2. Body:
+2.1. Header
+2.2: Title-film
+2.3 List film
+2.4 New film:
+
+3. Footer
+
+4. UseEffect:
++ Khi render ra dao dien(khoi return chạy xong) -> useEffect mới được chạy
+Từng bước: state -> render giao diện -> useEffect
+TH1:  mỗi lần render lại giao diện -> useEffect chạy lại
+TH2: có []: useEffect chỉ chạy lần duy nhất khi được mount, sau đó dù có render lại cũng k thay đổi
+TH3: phục thuộc vào deps

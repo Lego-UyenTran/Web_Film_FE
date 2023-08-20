@@ -1,0 +1,55 @@
+.wrapper {
+    padding-bottom: 48px;
+}
+
+.search {
+    position: relative;
+    height: 50px;
+    margin-bottom: 12px;
+    padding: 0px 12px;
+}
+
+.input {
+    height: 100%;
+    width: 100%;
+    padding: 6px 20px;
+    font-size: 1.7rem;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #363636;
+}
+
+.icon {
+    position: absolute;
+    width: 28px !important;
+    height: 28px !important;
+    color: rgba(0, 0, 0, 0.6);
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+}
+
+.clear {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.loading {
+    animation: spinner 0.8s linear infinite;
+}
+
+@keyframes spinner {
+    from {
+        transform: translateY(-50%) rotate(360deg); //-50%: can chinh vi tri icon
+    }
+    to {
+        transform: translateY(-50%) rotate(0deg);
+    }
+}
+
+@media (max-width: 575px) {
+    .search {
+        height: 40px;
+    }
+}

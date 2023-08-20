@@ -1,0 +1,70 @@
+//wrapper
+.film-block {
+    margin-bottom: 20px;
+}
+
+// --List film--
+.movidetail {
+    display: none;
+}
+
+.list {
+    width: 100%;
+    margin: 0 !important; // bo margin cua row
+    .item {
+        height: auto;
+        padding: 8px;
+        background-color: rgb(23, 31, 39);
+        transition: transform ease-in 0.1s;
+        will-change: transform;
+
+        &:hover {
+            transform: translateY(-1px);
+        }
+    }
+
+    .avata {
+        // the a
+        height: 380px;
+        width: 100%;
+
+        .image {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-size: contain;
+        }
+    }
+
+    .film-name {
+        display: block;
+        margin-top: 16px;
+        font-size: 1.6rem;
+        min-width: 48px;
+
+        .name {
+            color: #fff;
+        }
+
+        .English-name {
+            color: var(--text-color);
+        }
+    }
+}
+
+.name,
+.English-name {
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+    .list .avata {
+        // the a
+        height: 260px;
+    }
+}

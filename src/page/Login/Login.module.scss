@@ -1,0 +1,164 @@
+.wrapper {
+    margin-bottom: 38px;
+}
+
+.block {
+    width: calc(100% / 3);
+    height: auto;
+    margin: auto;
+}
+
+.title {
+    font-size: 3.2rem;
+    color: #7a7a7a;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.box {
+    background-color: #363636;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.field:first-child,
+.field:nth-child(2) {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 16px;
+
+    .userName,
+    .password {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        font-size: 1.8rem;
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+}
+
+.field:nth-child(3) {
+    display: flex;
+    margin-bottom: 16px;
+    .checkbox {
+        display: block;
+        width: 16px;
+        height: 16px;
+        border-radius: 5px;
+    }
+
+    p {
+        margin-left: 6px;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+}
+
+//Btn Dang Nhap
+.btn-submit {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    background-color: hsl(207, 61%, 53%);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3488ce;
+        border-color: transparent;
+        color: #fff;
+    }
+}
+
+.divider {
+    display: block;
+    position: relative;
+    border-top: 2px solid #dbdbdb;
+    height: 0.1rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+//Tao bien gia
+.divider::after {
+    background: #fff;
+    color: #a17a7a;
+    content: attr(data-content);
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 0.4rem 0.8rem;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+//Google-login
+
+.btn-google-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 22px;
+    font-size: 2rem;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background-color: #c41f20;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #c41f20;
+        border-color: transparent;
+        color: #fff;
+    }
+
+    .icon {
+        margin: 0 10px;
+        font-size: 2.2rem;
+    }
+}
+
+//other
+.other {
+    margin-top: 24px;
+    color: #428bca;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.8rem;
+
+    .register {
+        color: #428bca;
+        padding: 4px;
+        margin-right: 10px;
+        &:hover {
+            color: #dcf836;
+        }
+    }
+
+    .forgot {
+        color: #428bca;
+        padding: 4px;
+        &:hover {
+            color: #dcf836;
+        }
+    }
+}
+
+//Large
+@media screen and (max-width: 1200px) {
+    .block {
+        width: 50%;
+    }
+}
+
+//Medium
+@media screen and (max-width: 768px) {
+    .block {
+        width: 90%;
+    }
+}

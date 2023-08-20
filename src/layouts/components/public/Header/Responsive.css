@@ -1,0 +1,105 @@
+/* mobile and tablet  */
+@media (max-width: 1023px) {
+}
+
+/* only tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .wrapper {
+        /* display: inline-block; */
+    }
+
+    .control {
+    }
+}
+
+/*                 <div className={cx('column', 'l-2', 'm-4', 'c-6', 'type')}>
+                    <label className={cx('title')}>Loại phim</label>
+                    <div className={cx('control')}>
+                        <p className={cx('default')}>-- Tất cả --</p>
+                    </div>
+                    <ul className={cx('list')}>
+                        {category.map((item, index) => (
+                            <li
+                                className={cx('item')}
+                                value={publicRoutes[2].path}
+                                key={index}
+                            >
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                <div className={cx('column', 'l-2', 'm-4', 'c-6', 'type')}>
+                    <label className={cx('title')}>Loại phim</label>
+                    <div className={cx('control')}>
+                        <p className={cx('default')}>-- Tất cả --</p>
+                    </div>
+                    <ul className={cx('list')}>
+                        {category.map((item, index) => (
+                            <li
+                                className={cx('item')}
+                                value={publicRoutes[2].path}
+                                key={index}
+                            >
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                <div className={cx('column', 'l-2', 'm-4', 'c-6', 'type')}>
+                    <label className={cx('title')}>Loại phim</label>
+                    <div className={cx('control')}>
+                        <p className={cx('default')}>-- Tất cả --</p>
+                    </div>
+                    <ul className={cx('list')}>
+                        {category.map((item, index) => (
+                            <li
+                                className={cx('item')}
+                                value={publicRoutes[2].path}
+                                key={index}
+                            >
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                <div className={cx('column', 'l-2', 'm-4', 'c-6', 'type')}>
+                    <label className={cx('title')}>Loại phim</label>
+                    <div className={cx('control')}>
+                        <p className={cx('default')}>-- Tất cả --</p>
+                    </div>
+                    <ul className={cx('list')}>
+                        {category.map((item, index) => (
+                            <li
+                                className={cx('item')}
+                                value={publicRoutes[2].path}
+                                key={index}
+                            >
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                <div className={cx('column', 'l-2', 'm-4', 'c-6', 'type')}>
+                    <label className={cx('title')}>Loại phim</label>
+                    <div className={cx('control')}></div>
+                    <ul className={cx('list')}>
+                        {category.map((item, index) => (
+                            <li
+                                className={cx('item')}
+                                value={publicRoutes[2].path}
+                                key={index}
+                            >
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
+                </div> */

@@ -1,0 +1,43 @@
+:root {
+    --item-height: 450px;
+}
+
+.wrapper {
+    margin-top: 10px;
+}
+
+// --CONTENT--
+
+.content {
+    margin-top: 24px;
+    padding: 0 10px;
+}
+
+//--
+.new-film {
+    padding-bottom: 32px;
+    font-size: 1.6rem;
+}
+
+.title {
+    color: var(--gray-rgba-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.list-film-name {
+    .item {
+        display: inline-block;
+        color: #5b7198;
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    p {
+        display: inline-block;
+        color: var(--text-color);
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+}
